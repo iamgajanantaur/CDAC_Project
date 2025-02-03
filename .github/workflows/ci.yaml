@@ -48,8 +48,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.email "vishwajithajare30@gmail.com"
-          git config --global user.name "Vickyhajare"
+          git config --global user.email "gajanan.taur96@gmail.com"
+          git config --global user.name "Gajanan taur"
           git add helm/project-chart/values.yaml
           git commit -m "Update tag in Helm chart"
           git push
